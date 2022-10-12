@@ -39,7 +39,7 @@ public class Main {
         System.out.println("Ваша корзина покупок:");
         int sum = 0;
         for (int i = 0; i < products.length; i++) {
-            sum += prices[i] * counts[i];
+            //sum += prices[i] * counts[i];
         }
         boolean doBonus = sum >= MIN_COST_FOR_BONUS;
         for (int i = 0; i < products.length; i++) {
